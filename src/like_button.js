@@ -13,13 +13,10 @@ class LikeButton extends React.Component {
       return "You liked this.";
     }
 
-    return (
-      <button
-        type="button"
-        className="like_button"
-        onClick={() => this.setState({ liked: true })}>
-        Like
-      </button>
+    return e(
+      "button",
+      { onClick: () => this.setState({ liked: true }) },
+      "Like"
     );
   }
 }
