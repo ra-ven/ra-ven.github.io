@@ -3,7 +3,7 @@ h1 {
   color: rgb(0, 204, 255);
 }
 
-/* #like_button_container {
+#like_button_container {
   margin: auto;
 }
 
@@ -16,4 +16,4 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-} */
+}
