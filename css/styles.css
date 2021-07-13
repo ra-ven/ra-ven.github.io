@@ -10,7 +10,7 @@ h1 {
 .like_button {
   background-color: #4caf50; /* Green */
   border: none;
-  color: white;
+  color: rgb(255, 0, 0);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
