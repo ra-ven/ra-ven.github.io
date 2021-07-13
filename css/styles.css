@@ -3,9 +3,9 @@ h1 {
   color: rgb(0, 204, 255);
 }
 
-#like_button_container {
+/* #like_button_container {
   margin: auto;
-}
+} */
 
 .like_button {
   background-color: #4caf50;
