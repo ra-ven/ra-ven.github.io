@@ -33,7 +33,9 @@ var LikeButton = function (_React$Component) {
 
       return React.createElement(
         "button",
-        { onClick: function onClick() {
+        {
+          className: "like_button",
+          onClick: function onClick() {
             return _this2.setState({ liked: true });
           } },
         "Like"
